@@ -1,6 +1,6 @@
 # wiremock-docker
 
-`docker run -d -p 8080:8080 tjheslin1/wiremock:2.0`
+`docker run -d -p 8080:8080 tjheslin1/wiremock:2.1`
 
 docker image for running wiremock
 

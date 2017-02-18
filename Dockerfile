@@ -10,4 +10,5 @@ COPY mappings /wiremock/mappings
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "wiremock-standalone-2.5.1.jar"]
+ENTRYPOINT ["java", "-jar"]
+CMD ["wiremock-standalone-2.5.1.jar"]
